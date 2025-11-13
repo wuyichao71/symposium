@@ -1,4 +1,3 @@
-import Td from "./Td";
 import "./ContentMain.css";
 
 type Props = {
