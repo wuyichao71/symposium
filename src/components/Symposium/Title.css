@@ -1,6 +1,19 @@
 .Title {
   /* font-size: var(--l); */
-  padding: 0 var(--l);
-  margin: 16px 0;
+  padding: var(--m) var(--l);
+  margin: 0;
   line-height: 40px;
+  cursor: pointer;
+  background-color: var(--background-color);
+  /* color: #e2e2e2;
+  text-decoration: none; */
+}
+
+.Title-a {
+  text-decoration: none;
+  color: #e2e2e2;
+}
+
+.Title:hover {
+  background-color: rgba(255, 255, 255, 0.4);
 }

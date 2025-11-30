@@ -4,6 +4,7 @@
   display: flex;
   margin: var(--xl) auto 0;
   gap: var(--xl);
+  height: 100%;
 }
 
 .Content-p {

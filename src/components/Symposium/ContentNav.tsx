@@ -11,7 +11,11 @@ const ContentNav = (props: Props) => {
       <Title key={index}>{item}</Title>
     ));
   };
-  return <nav className="ContentNav">{listTitle()}</nav>;
+  return (
+    <nav className="ContentNav" id="ContentNav">
+      {listTitle()}
+    </nav>
+  );
 };
 
 export default ContentNav;

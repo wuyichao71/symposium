@@ -1,5 +1,5 @@
 // import Td from "./Td";
-// import ContentNav from "./ContentNav";
+import ContentNav from "./ContentNav";
 import ContentMain from "./ContentMain";
 import Speakers from "./Speakers";
 import Program from "./Program";
@@ -62,7 +62,7 @@ const Content = () => {
   );
   return (
     <div className="Content">
-      {/* <ContentNav content={content} /> */}
+      <ContentNav content={content} />
       <ContentMain
         content={content}
         info={[

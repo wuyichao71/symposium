@@ -1,0 +1,16 @@
+.ContentItem-content {
+  font-size: var(--m);
+  width: 100%;
+  padding: var(--m);
+}
+
+.ContentItem-info {
+  overflow: hidden;
+  /* transition: max-height 0.3s ease; */
+  /* max-height: 1080px; */
+}
+
+.ContentItem-info.hide {
+  /* max-height: 0; */
+  display: none;
+}

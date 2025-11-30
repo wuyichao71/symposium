@@ -1,0 +1,21 @@
+.ContentTitle {
+  background-color: var(--background-color);
+  font-size: 20px;
+  width: 100%;
+  padding: var(--m);
+  color: #fefefe;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  /* height: 62px; */
+}
+
+.ContentTitle-arrow {
+  margin: auto 0;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.ContentTitle-arrow.rotated {
+  transform: rotate(180deg);
+}

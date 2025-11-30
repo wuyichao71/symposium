@@ -3,15 +3,6 @@
   /* width: 100px; */
 }
 
-.ContentMain-title {
-  background-color: var(--background-color);
-  font-size: 20px;
-  width: 100%;
-  padding: var(--m);
-  color: #fefefe;
-  font-weight: 700;
-}
-
 .ContentMain-content {
   /* background-color: var(--background-color); */
   font-size: var(--m);
@@ -19,4 +10,8 @@
   padding: var(--m);
   /* color: #fefefe; */
   /* font-weight: 700; */
+}
+
+.middle {
+  justify-content: center;
 }

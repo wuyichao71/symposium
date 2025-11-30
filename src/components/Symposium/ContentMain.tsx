@@ -1,4 +1,6 @@
 import "./ContentMain.css";
+import ContentItem from "./ContentItem";
+// import ContentTitle from "./ContentTitle";
 
 type Props = {
   content: string[];
@@ -8,10 +10,9 @@ type Props = {
 const ContentMain = (props: Props) => {
   const listContent = () => {
     return props.content.map((item, index) => (
-      <div className="ContentMain-module" key={index}>
-        <div className="ContentMain-title">{item}</div>
-        <div className="ContentMain-content">{props.info[index]}</div>
-      </div>
+      <ContentItem key={index} info={props.info[index]}>
+        {item}
+      </ContentItem>
     ));
   };
   return <div className="ContentMain">{listContent()}</div>;
