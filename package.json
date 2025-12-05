@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -b gh-pages"
+    "deploy": "gh-pages -d dist -b gh-pages --repo git@github.com:biosimstalks/symposium.git"
   },
   "dependencies": {
     "react": "^19.1.1",
