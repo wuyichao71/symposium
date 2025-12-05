@@ -1,6 +1,6 @@
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 import "./Header.css";
-const base = import.meta.env.BASE_URL;
+import { base } from "../utility.tsx";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
           SIM
         </span>
       </h1>
-      {/* <NavBar /> */}
+      <NavBar />
     </header>
   );
 };

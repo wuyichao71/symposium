@@ -1,5 +1,5 @@
 import "./Event.css";
-const base = import.meta.env.BASE_URL;
+import { base } from "../../utility.tsx";
 
 const Event = () => {
   return (
