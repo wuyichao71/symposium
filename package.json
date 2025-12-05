@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist -b gh-pages --repo git@github.com:biosimstalks/symposium.git"
   },
   "dependencies": {
+    "antd": "^6.0.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.4"

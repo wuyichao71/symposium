@@ -1,7 +1,9 @@
 // import Td from "./Td";
+import WelcomeMessage from "./WelcomeMessage";
 import ContentNav from "./ContentNav";
 import ContentMain from "./ContentMain";
 import Speakers from "./Speakers";
+import Registration from "./Registration";
 import Program from "./Program";
 import "./Content.css";
 
@@ -20,7 +22,7 @@ const Content = () => {
     );
   };
   const content = [
-    "About",
+    // "About",
     "Welcome Messege",
     "Confirmed Invited Speakers",
     "Program",
@@ -28,23 +30,19 @@ const Content = () => {
     "Abstract for posters",
     "Access",
   ];
-  const about = (
-    <>
-      <p className="Content-p">Welcome to the BioSim Symposium!</p>
-      <p className="Content-p">
-        We are delighted to invite you to this symposium, which aims to:
-      </p>
-    </>
-  );
+  // const about = (
+  //   <>
+  //     <p className="Content-p">Welcome to the BioSim Symposium!</p>
+  //     <p className="Content-p">
+  //       We are delighted to invite you to this symposium, which aims to:
+  //     </p>
+  //   </>
+  // );
 
-  const welcomeMessage = <></>;
+  const welcomeMessage = <WelcomeMessage />;
   const confirmedInvitedSpeakers = <Speakers />;
   const program = <Program />;
-  const registration = (
-    <>
-      <p className="Content-p2">Coming soon...</p>
-    </>
-  );
+  const registration = <Registration />;
   const abstractForPosters = <></>;
   const access = (
     <>
@@ -70,7 +68,7 @@ const Content = () => {
       <ContentMain
         content={content}
         info={[
-          about,
+          // about,
           welcomeMessage,
           confirmedInvitedSpeakers,
           program,

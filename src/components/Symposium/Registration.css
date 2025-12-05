@@ -1,0 +1,10 @@
+.R-align {
+  display: flex;
+  justify-content: center;
+}
+
+.R-button {
+  font-size: 30px;
+  height: 70px;
+  padding: 12px 40px;
+}
