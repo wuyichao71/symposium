@@ -23,7 +23,7 @@ const Content = () => {
   };
   const content = [
     // "About",
-    "Welcome Messege",
+    "Welcome Message",
     "Confirmed Invited Speakers",
     "Program",
     "Registration",

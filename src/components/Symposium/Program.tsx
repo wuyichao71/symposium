@@ -21,7 +21,7 @@ const Program = () => {
     { time: 40, activity: "Invited Speaker 6" },
     { time: 40, activity: "Invited Speaker 7" },
     { time: 30, activity: "Closing comments and discussion" },
-    { time: 105, activity: "Poster session + cocktail hour", shift: 20 },
+    { time: 105, activity: "Poster session + reception", shift: 20 },
   ];
 
   const listActivity = () => {
